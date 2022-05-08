@@ -92,9 +92,6 @@ def join_digits(digits):
     return int("".join([str(digit) for digit in digits]))
 
 def main():
-    """ Quick implementation that grabs a number from the user and starts the process
-        of getting Kaprekar's constant.
-    """
     num = int(input("\nPlease enter a number to kaprekize: "))
 
     if repeats(num):
